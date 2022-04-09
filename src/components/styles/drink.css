@@ -1,0 +1,75 @@
+body{margin:0;padding:0;}
+.drink-card{text-align: center; color:#EEE;display: inline;margin:0;padding:0;}
+.ingredients-div{display: inline;float:left;list-style-type: none;padding:20px;}
+
+.outer{display: flex;justify-content: center;width:100%;height: 100%;}
+.ingredients-card{float:left;}
+.image-container{float:left;width:59%;}
+.image{width: 80%;
+    width: 80%;
+    border-radius: 1rem;
+    
+}
+.info{width:34%;float:left;margin-right:6%}
+.info__title{color: #fff;font-family: 'Android 101';
+}
+.ingredients__list{padding-bottom:20px;}
+.instructions__text{margin-left: 10px;margin-right: 10px;}
+.instructions{}
+.foo {
+    position : relative;
+ }
+ .foo .wrapper {
+    background-image: radial-gradient( transparent 20%, #18191A 90%);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+ 
+.drink-name{font-family: SunsetClub;color:#fff;font-size: 50px; font-weight: 300;}
+.container{display: block;max-width: 1600px;}
+
+@media (max-width:998px){
+
+}
+@media (max-width:767px){
+    .image-container{float:left;width:100%;}
+    .info{width:80%;float:left;margin-left:10%;margin-right: 10%;}
+    .drink-name{color:#fff;font-size: 35px; font-weight: 300;}
+
+}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: ' ';clear: both;height: 0;}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(109, 0, 109),
+        0 0 80px rgb(109, 0, 109),
+        0 0 90px rgb(109, 0, 109),
+        0 0 100px rgb(109, 0, 109),
+        0 0 150px rgb(109, 0, 109);
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
+
+  .neonText {
+    color: rgb(255, 157, 255);
+    text-shadow:
+      0 0 7px rgb(255, 157, 255),
+      0 0 8px rgb(255, 157, 255),
+      0 0 11px rgb(109, 0, 109),
+      0 0 42px rgb(109, 0, 109),
+      0 0 82px rgb(109, 0, 109),
+      0 0 92px rgb(109, 0, 109),
+      0 0 102px rgb(109, 0, 109),
+      0 0 151px rgb(109, 0, 109);
+  }

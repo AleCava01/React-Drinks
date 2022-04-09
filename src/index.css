@@ -1,0 +1,29 @@
+body{
+    background-color: #000000;
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+@font-face {
+    font-family: SunsetClub;
+    src: url("/src/components/fonts/SunsetClubFreeTrial-2ODpw.otf") format("opentype");
+}
+@font-face {
+    font-family: Inversionz;
+    src: url("/src/components/fonts/Inversionz.otf") format("opentype");
+}
+@font-face {
+    font-family: Android 101;
+    src: url("/src/components/fonts/Android 101.otf") format("opentype");
+}
+@font-face {
+    font-family: Mandatory Plaything;
+    src: url("/src/components/fonts/Mandatory Plaything.otf") format("opentype");
+}
+@font-face{
+    font-family: Cabaret;
+    src: url("/src/components/fonts/Cabaret.ttf");
+} 
+
+*{font-family: 'Mandatory Plaything';}
