@@ -25,5 +25,8 @@ body{
     font-family: Cabaret;
     src: url("/src/components/fonts/Cabaret.ttf");
 } 
+@font-face{
+    font-family: Monoton-Regular;
+    src: url("/src/components/fonts/Monoton-Regular.ttf");
+} 
 
-*{font-family: 'Mandatory Plaything';}

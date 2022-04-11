@@ -1,0 +1,19 @@
+.container{text-align:center;border:1px solid red; max-width: 1000px; margin:0 auto; margin-bottom:40px}
+.grid-box{width:18%; min-height: 180px;float:left;margin:1%; border:1px solid lime}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+  @media (max-width: 998px){
+    .grid-box{width:46%; margin:2%;}
+  }
+  @media (max-width: 768px){
+    .grid-box{width:96%;margin:2%;}
+  }

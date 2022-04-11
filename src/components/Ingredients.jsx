@@ -12,7 +12,7 @@ const Ingredients = props => {
         <div className='ingredients'>
             <h3 className='info__title'>Ingredients</h3>
             <div className="ingredients__list">
-                <p>{rows}</p>
+                <p className='info-box'>{rows}</p>
             </div>
             
         </div>

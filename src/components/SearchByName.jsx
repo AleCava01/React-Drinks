@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import Drink from "./Drink"
+import DrinkCard from './DrinkCard';
+import "./styles/searchByName.css";
 
 
 
 const SearchByName = () => {
-  const [item, setItem] = useState([]);
-  const [ingredients, setIngredients] = useState([]);
+  const [items, setItems] = useState([]);
   const [search, setSearch] = useState("");
 
   async function fetchItems(search)  {
@@ -13,16 +13,9 @@ const SearchByName = () => {
       const data = await fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s="+search);
       let res = await data.json()
 
-      setItem(res["drinks"][0])
+      setItems(res["drinks"])
       
-      let ingredients=[];
-      for(let i=1; i<16;i++){
-        if(res["drinks"][0]["strIngredient"+i.toString()] !== null){
-          ingredients.push(res["drinks"][0]["strIngredient"+i.toString()]);
-        }
-      }
-      setIngredients(ingredients);
-      console.log(res["drinks"][0]);
+      console.log(res["drinks"]);
     }
     catch(error){
     }
@@ -40,7 +33,14 @@ const SearchByName = () => {
     <br></br>
     <input type="text" value={search} onChange={handleChange} placeholder="Search"/>
     <button onClick={handleClick}>Search</button>
-    <Drink name={item.strDrink} image={item.strDrinkThumb} ingredients={ingredients}></Drink>
+    <div className="container clearfix">
+      {items.map((item) => (
+        <div className="grid-box">
+        <DrinkCard name={item.strDrink} image={item.strDrinkThumb}></DrinkCard>
+        </div>
+      ))}
+      
+    </div>
     </>
     
   )

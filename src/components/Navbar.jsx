@@ -10,8 +10,8 @@ const Navbar = () => {
     <div className='navbar'>
       
       <div className="nav__menu clearfix">
-
-        <h3 className='nav__logo'>COCKTAILS</h3>
+        
+        <h3 className='nav__logo'>REACT-COCKTAILS</h3>
         <li className="nav__mobile">
           <span className='nav__mobile__span'></span>
           <span className='nav__mobile__span'></span>
