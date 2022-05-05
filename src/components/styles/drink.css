@@ -8,15 +8,14 @@
 .image{width: 80%;margin-bottom:45px;border-radius: 1rem;
 }
 .info{width:34%;float:left;margin-right:6%}
-.info__title{color: #fff;
-}
-.info-box{font-family: SunsetClub}
+.info__title{color: #fff;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.info-box{}
 .ingredients__list{padding-bottom:20px;}
 .instructions__text{margin-left: 10px;margin-right: 10px;}
 
 
 .info__title{
-  color: fff;
+  color: #fff;
   text-shadow:
   0 0 4px #fff,
         0 0 11px #fff,
@@ -29,23 +28,11 @@
 padding:20px;
 margin-bottom:20px;
 }
-.glass{margin-bottom:45px;box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #69c8ff,
-
-  inset 0 0 1.3rem #5dd1ff;
+.glass{margin-bottom:45px;
 padding:20px;}
-.ingredients{margin-bottom:45px;box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #69c8ff,
-
-  inset 0 0 1.3rem #5dd1ff;
+.ingredients{margin-bottom:45px;
 padding:20px;}
-.instructions{margin-bottom:45px;box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #69c8ff,
-
-  inset 0 0 1.3rem #5dd1ff;
+.instructions{margin-bottom:45px;
 padding:20px;}
 
 

@@ -2,17 +2,9 @@
 .nav__mobile__span{display: block;background-color: #fff;height: 2px; width: 23px; margin-bottom: 5px;}
 .nav__mobile{float:right;padding:20px;margin:0;display:none}
 .nav__menu{padding:0; margin:0;text-decoration: none;list-style: none;}
-.nav__link{float:right;padding:20px;color:#fff;font-family: 'Mandatory Plaything';font-size:20px;
-  color: #a9f5ff;
-  text-shadow:
-    0 0 7px #a9f5ff,
-    0 0 8px #a9f5ff,
-    0 0 11px rgb(12, 102, 102)
-    0 0 42px rgb(12, 102, 102),
-    0 0 82px rgb(12, 102, 102),
-    0 0 92px rgb(12, 102, 102),
-    0 0 102px rgb(12, 102, 102),
-    0 0 151px rgb(12, 102, 102);
+.nav__link{float:right;padding:20px;color:#fff;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:20px;
+  
+ 
 }
 .nav__mobile__fix{height: 0px;}
 .opacity{height:100%; background: #000;opacity: 0.9;}
